@@ -1,0 +1,44 @@
+<section id="contact">
+ <div class="section-content">
+   <h1 class="section-header text center">Get in <span class="content-header wow fadeIn " data-wow-delay="0.2s" data-wow-duration="2s"></span></h1>
+   <h3></h3>
+ </div>
+ <div class="contact-section">
+ <div class="container">
+   <div class="row">
+     <div class="col-lg-6">
+         <div class="form-group">
+           <label for="exampleInputUsername">firstname</label>
+           <input type="text" class="form-control" [(ngModel)]="firstname" [ngModelOptions]="{standalone: true}" placeholder=" Enter First Name">
+         </div>
+         <div class="form-group">
+           <label for="exampleInputusername">mobileNumber</label>
+           <input type="email" class="form-control" id="exampleInputEmail" [(ngModel)]="mobileno" [ngModelOptions]="{standalone: true}" placeholder=" Enter Mobile Number">
+         </div>	
+         <div class="form-group">
+           <label for="telephone">password</label>
+           <input type="tel" class="form-control" id="telephone" [(ngModel)]="password"  [ngModelOptions]="{standalone: true}" placeholder=" Enter Password">
+         </div>
+       </div>
+       <div class="col-lg-6">
+         <div class="form-group">
+             <label for="exampleInputUsername">lastname</label>
+             <input type="text" class="form-control" id="" [(ngModel)]="lastname"  [ngModelOptions]="{standalone: true}" placeholder=" Enter Last Name">
+           </div>
+           <div class="form-group">
+             <label for="exampleInputEmail">Email</label>
+             <input type="email" class="form-control" id="exampleInputEmail" [(ngModel)]="email" [ngModelOptions]="{standalone: true}" placeholder=" Enter email id">
+           </div>	
+           <div class="form-group">
+             <label for="telephone">confirmpassword</label>
+             <input type="tel" class="form-control" id="telephone" [(ngModel)]="confirmpassword" [ngModelOptions]="{standalone: true}" placeholder=" Enter password">
+           </div>
+         <div>
+           <button type="button" class="btn btn-default submit"   (click)="signup()"><i class="fa fa-paper-plane" aria-hidden="true"></i>SignUp!</button>
+           
+         </div>
+           </div>
+</div>
+ </div>
+</div>
+</section>

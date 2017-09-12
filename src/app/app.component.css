@@ -1,0 +1,28 @@
+.top-head{background: #141517; width: 100%; height: 100px;}
+.top-head h1 {color: #fff; font-size: 36px; font-weight: 600; margin: 18px 0 0;}
+.top-head small{float: left; width: 100%; font-size: 14px; color: #c0c0c0; margin-top: 5px; margin-left: 5px;}
+.top-head .admin-bar {text-align: right; width: 500px; margin-top: 22px; margin-left: 0px; }
+.top-head .admin-bar a {color: #fff; line-height: 49px; position: relative; padding:0 7px;}
+.top-head .admin-bar a:hover{color: #ff0000}
+.top-head .admin-bar a i{margin-right: 6px;}
+.top-head .admin-bar .ping {background: #ff0000; border: 3px solid #141517; border-radius: 50%; height: 14px; position: absolute; right: 3px;    top: 18px; width: 14px; z-index: 1;}
+.colour{
+	background-color: black;
+	color: red;
+	bottom: 0;
+	width: 100%;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
